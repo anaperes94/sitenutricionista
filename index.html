@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Isabela Fontes – Nutrição, Saúde e Estética</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════
+     NAVIGATION
+═══════════════════════════════════════════ -->
+<nav id="navbar">
+  <a href="#home" class="nav-logo">Isabela <span>Fontes</span></a>
+
+  <!-- Desktop links -->
+  <ul class="nav-links">
+    <li><a href="#sobre">Sobre</a></li>
+    <li><a href="#processo">Processo</a></li>
+    <li><a href="#planos">Planos</a></li>
+    <li><a href="#depoimentos">Depoimentos</a></li>
+    <li><a href="#localizacao">Localização</a></li>
+    <li><a href="https://wa.me/5511999990000" class="nav-cta">Agendar consulta</a></li>
+  </ul>
+
+  <!-- Hamburger -->
+  <button class="nav-hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+</nav>
+
+<!-- Mobile drawer -->
+<div class="nav-drawer" id="nav-drawer" aria-hidden="true">
+  <ul>
+    <li><a href="#sobre">Sobre</a></li>
+    <li><a href="#processo">Processo</a></li>
+    <li><a href="#planos">Planos</a></li>
+    <li><a href="#depoimentos">Depoimentos</a></li>
+    <li><a href="#localizacao">Localização</a></li>
+    <li><a href="https://wa.me/5511999990000" class="drawer-cta">
+      Agendar consulta
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+    </a></li>
+  </ul>
+</div>
+
+<!-- ═══════════════════════════════════════════
+     HERO
+═══════════════════════════════════════════ -->
+<section class="hero" id="home">
+  <div class="hero-text reveal">
+    <div class="eyebrow">Nutricionista · São Paulo, SP</div>
+    <h1>Nutrição que <em>transforma</em> sem abrir mão da sua <em>vida</em></h1>
+    <p class="hero-sub">Atendimento personalizado, guiado pelas suas particularidades, rotina e objetivos — com toda a atenção que você merece.</p>
+    <div class="hero-btns">
+      <a href="https://wa.me/5511999990000" class="btn-primary">
+        Agendar consulta
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+      <a href="#processo" class="btn-ghost">Como funciona</a>
+    </div>
+  </div>
+
+  <div class="hero-visual reveal d2">
+    <div class="hero-frame">
+      <img
+        src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=760&q=80&auto=format&fit=crop"
+        alt="Isabela Fontes – Nutricionista"
+        loading="eager"
+      >
+    </div>
+    <div class="hero-badge">
+      <div class="b-num">USP</div>
+      <div class="b-label">Nutricionista formada</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     MARQUEE
+═══════════════════════════════════════════ -->
+<div class="marquee-wrap" aria-hidden="true">
+  <div class="marquee-track">
+    <span class="mi">Nutrição Clínica e Funcional</span>
+    <span class="mi">Emagrecimento Saudável</span>
+    <span class="mi">Saúde Metabólica</span>
+    <span class="mi">Atendimento Online e Presencial</span>
+    <span class="mi">Plano Alimentar Personalizado</span>
+    <span class="mi">Acompanhamento Contínuo</span>
+    <span class="mi">Nutrição Esportiva</span>
+    <span class="mi">Nutrição Clínica e Funcional</span>
+    <span class="mi">Emagrecimento Saudável</span>
+    <span class="mi">Saúde Metabólica</span>
+    <span class="mi">Atendimento Online e Presencial</span>
+    <span class="mi">Plano Alimentar Personalizado</span>
+    <span class="mi">Acompanhamento Contínuo</span>
+    <span class="mi">Nutrição Esportiva</span>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════
+     ABOUT
+═══════════════════════════════════════════ -->
+<section class="about" id="sobre">
+  <div class="about-img-wrap reveal-l">
+    <div class="about-img">
+      <img
+        src="https://images.unsplash.com/photo-1614608682850-e0d6ed316d47?w=700&q=80&auto=format&fit=crop"
+        alt="Isabela Fontes no consultório"
+        loading="lazy"
+      >
+    </div>
+    <div class="about-tag">
+      <div class="tn">Pós-Grad.</div>
+      <div class="tl">Clínica, Funcional e Esportiva</div>
+    </div>
+  </div>
+
+  <div class="about-text reveal">
+    <div class="s-label">Quem sou eu</div>
+    <h2>Nutrição com <em>cuidado</em> e ciência</h2>
+    <p>Sou Isabela Fontes, nutricionista formada pela Universidade de São Paulo, com pós-graduação em Nutrição Clínica e Funcional e em Nutrição, Metabolismo e Fisiologia do Esporte.</p>
+    <p>Meu objetivo é te oferecer um atendimento único, direcionado pelas particularidades do seu objetivo, rotina e gostos — com toda a atenção que você precisa para transformar de verdade sua relação com a alimentação.</p>
+    <div class="creds">
+      <div class="cred">Formada pela Universidade de São Paulo (USP)</div>
+      <div class="cred">Pós-Graduação em Nutrição Clínica e Funcional</div>
+      <div class="cred">Pós-Graduação em Nutrição, Metabolismo e Fisiologia do Esporte</div>
+      <div class="cred">Atendimento presencial em São Paulo e online para todo o Brasil</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     HOW — STEPS
+═══════════════════════════════════════════ -->
+<section class="how" id="processo">
+  <div class="how-head reveal">
+    <div class="s-label">Como funciona</div>
+    <h2>Seu processo de <em>transformação</em></h2>
+  </div>
+  <div class="steps">
+    <div class="step-card reveal d1">
+      <div class="step-icon">🔍</div>
+      <div class="step-n">01</div>
+      <h3>Consulta Inicial</h3>
+      <p>Avaliação completa: sintomas, histórico, rotina, gostos e objetivos. Presencial em São Paulo ou online via Google Meet.</p>
+    </div>
+    <div class="step-card reveal d2">
+      <div class="step-icon">📋</div>
+      <div class="step-n">02</div>
+      <h3>Plano Personalizado</h3>
+      <p>Plano alimentar e orientações nutricionais entregues em até 1 dia útil, com receitas e combinações para variar o cardápio.</p>
+    </div>
+    <div class="step-card reveal d3">
+      <div class="step-icon">💬</div>
+      <div class="step-n">03</div>
+      <h3>Acompanhamento Contínuo</h3>
+      <p>Suporte via WhatsApp e app de paciente, retorno a cada 30 dias com avaliação antropométrica e ajustes do plano.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     HOW — INCLUDES
+═══════════════════════════════════════════ -->
+<section class="how-includes">
+  <div class="reveal">
+    <div class="s-label">O que está incluso</div>
+    <h2>Tudo que você precisa para <em>evoluir</em></h2>
+    <div class="how-list">
+      <div class="hw-item">
+        <div class="hw-icon">📅</div>
+        <div>
+          <h4>Consulta a cada 30 dias</h4>
+          <p>Presencial em São Paulo ou online via Google Meet, para avaliar evolução e ajustar o plano.</p>
+        </div>
+      </div>
+      <div class="hw-item">
+        <div class="hw-icon">📏</div>
+        <div>
+          <h4>Avaliação antropométrica e semiológica</h4>
+          <p>Medidas corporais e análise de sinais e sintomas para um diagnóstico nutricional preciso.</p>
+        </div>
+      </div>
+      <div class="hw-item">
+        <div class="hw-icon">🥗</div>
+        <div>
+          <h4>Plano alimentar entregue em até 1 dia útil</h4>
+          <p>Com diversas combinações e receitas para que sua alimentação seja variada e prazerosa.</p>
+        </div>
+      </div>
+      <div class="hw-item">
+        <div class="hw-icon">📱</div>
+        <div>
+          <h4>Acompanhamento em tempo integral</h4>
+          <p>Suporte via WhatsApp e app exclusivo para o paciente durante todo o processo.</p>
+        </div>
+      </div>
+      <div class="hw-item">
+        <div class="hw-icon">🎁</div>
+        <div>
+          <h4>Bônus: material educativo + desconto em suplementos</h4>
+          <p>15% na NutriMax com frete grátis, e plano de manutenção extra para planos semestrais.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="how-visual reveal d2">
+    <img
+      src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=700&q=80&auto=format&fit=crop"
+      alt="Alimentação saudável e colorida"
+      loading="lazy"
+      style="width:100%;height:100%;object-fit:cover;border-radius:var(--r-lg);"
+    >
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     PLANS
+═══════════════════════════════════════════ -->
+<section class="plans" id="planos">
+  <div class="plans-head reveal">
+    <div class="s-label">Planos de atendimento</div>
+    <h2>Escolha o acompanhamento <em>ideal</em> para você</h2>
+  </div>
+
+  <!-- Presencial -->
+  <div class="plans-grid">
+    <div class="pcard reveal d1">
+      <div class="ptype">Presencial · São Paulo</div>
+      <div class="pname">Mensal</div>
+      <ul class="pfeatures">
+        <li>1 consulta presencial por mês</li>
+        <li>Avaliação antropométrica completa</li>
+        <li>Plano alimentar em até 1 dia útil</li>
+        <li>Acompanhamento via WhatsApp e app</li>
+        <li>Receitas e combinações de cardápio</li>
+        <li>Material educativo e motivacional</li>
+      </ul>
+      <a href="https://wa.me/5511999990000" class="btn-ghost">Agendar</a>
+    </div>
+    <div class="pcard featured reveal d2">
+      <div class="pbadge">Mais popular</div>
+      <div class="ptype">Presencial · São Paulo</div>
+      <div class="pname">Trimestral</div>
+      <ul class="pfeatures">
+        <li>3 consultas presenciais</li>
+        <li>Avaliação antropométrica em cada retorno</li>
+        <li>Plano alimentar e orientações nutricionais</li>
+        <li>Suporte contínuo via WhatsApp e app</li>
+        <li>Receitas e combinações de cardápio</li>
+        <li>Material educativo e motivacional</li>
+        <li>15% de desconto em suplementos + frete grátis</li>
+      </ul>
+      <a href="https://wa.me/5511999990000" class="btn-ghost">Agendar agora</a>
+    </div>
+    <div class="pcard reveal d3">
+      <div class="ptype">Presencial · São Paulo</div>
+      <div class="pname">Semestral</div>
+      <ul class="pfeatures">
+        <li>6 consultas presenciais</li>
+        <li>Avaliação antropométrica em cada retorno</li>
+        <li>Plano alimentar e orientações nutricionais</li>
+        <li>Suporte contínuo via WhatsApp e app</li>
+        <li>Material educativo e motivacional</li>
+        <li>15% de desconto em suplementos + frete grátis</li>
+        <li>Plano de manutenção EXTRA ao final</li>
+      </ul>
+      <a href="https://wa.me/5511999990000" class="btn-ghost">Agendar</a>
+    </div>
+  </div>
+
+  <div class="plan-divider reveal">Acompanhamento Online · Todo o Brasil</div>
+
+  <!-- Online -->
+  <div class="plans-grid">
+    <div class="pcard reveal d1">
+      <div class="ptype">Online · Google Meet</div>
+      <div class="pname">Mensal</div>
+      <ul class="pfeatures">
+        <li>1 consulta online via Google Meet</li>
+        <li>Plano alimentar em até 1 dia útil</li>
+        <li>Acompanhamento via WhatsApp e app</li>
+        <li>Receitas e combinações de cardápio</li>
+        <li>Material educativo e motivacional</li>
+      </ul>
+      <a href="https://wa.me/5511999990000" class="btn-ghost">Agendar</a>
+    </div>
+    <div class="pcard featured reveal d2">
+      <div class="pbadge">Mais popular</div>
+      <div class="ptype">Online · Google Meet</div>
+      <div class="pname">Trimestral</div>
+      <ul class="pfeatures">
+        <li>3 consultas online via Google Meet</li>
+        <li>Plano alimentar e orientações nutricionais</li>
+        <li>Suporte contínuo via WhatsApp e app</li>
+        <li>Receitas e combinações de cardápio</li>
+        <li>Material educativo e motivacional</li>
+        <li>15% de desconto em suplementos + frete grátis</li>
+      </ul>
+      <a href="https://wa.me/5511999990000" class="btn-ghost">Agendar agora</a>
+    </div>
+    <div class="pcard reveal d3">
+      <div class="ptype">Online · Google Meet</div>
+      <div class="pname">Semestral</div>
+      <ul class="pfeatures">
+        <li>6 consultas online via Google Meet</li>
+        <li>Plano alimentar e orientações nutricionais</li>
+        <li>Suporte contínuo via WhatsApp e app</li>
+        <li>Material educativo e motivacional</li>
+        <li>15% de desconto em suplementos + frete grátis</li>
+        <li>Plano de manutenção EXTRA ao final</li>
+      </ul>
+      <a href="https://wa.me/5511999990000" class="btn-ghost">Agendar</a>
+    </div>
+  </div>
+
+  <p class="plans-note reveal">No ato do agendamento, solicitamos uma entrada para confirmar a marcação. Remarcações devem ser sinalizadas com pelo menos 24h de antecedência.</p>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     TESTIMONIALS
+═══════════════════════════════════════════ -->
+<section class="testimonials" id="depoimentos">
+  <div class="testi-head reveal">
+    <div class="s-label">Resultados reais</div>
+    <h2>Histórias de <em>transformação</em></h2>
+  </div>
+  <p class="testi-sub reveal">"Cada um desses feedbacks representa uma história real — de quem um dia também deu o primeiro passo, mesmo com dúvidas, receios, ou achando que ainda não era o momento certo. E olha onde chegaram!"</p>
+
+  <div class="carousel-outer reveal">
+    <div class="carousel" id="carousel">
+      <div class="tcard">
+        <div class="tstars">★★★★★</div>
+        <p class="ttext">"Eu estava muito insatisfeita com meu corpo e minha autoestima estava lá embaixo. Ver os resultados me dá ainda mais ânimo para continuar. Estou me reencontrando de verdade!"</p>
+        <div class="tauthor">
+          <div class="tavatar">M</div>
+          <div>
+            <div class="tname">Marina S.</div>
+            <div class="tdetail">Acompanhamento semestral</div>
+          </div>
+        </div>
+        <div class="tresult">✦ Meta principal alcançada</div>
+      </div>
+      <div class="tcard">
+        <div class="tstars">★★★★★</div>
+        <p class="ttext">"Não acredito nos resultados que já conquistei! Precisa investir em 6 meses de acompanhamento com a Isabela para sentir a diferença. Recomendo demais para todo mundo!"</p>
+        <div class="tauthor">
+          <div class="tavatar">R</div>
+          <div>
+            <div class="tname">Renata C.</div>
+            <div class="tdetail">Acompanhamento trimestral</div>
+          </div>
+        </div>
+        <div class="tresult">✦ −4 kg em 6 semanas</div>
+      </div>
+      <div class="tcard">
+        <div class="tstars">★★★★★</div>
+        <p class="ttext">"Obrigada pelo acompanhamento tão personalizado e atencioso. Raramente encontro esse nível de cuidado com cada detalhe. Me sinto acolhida e motivada em cada retorno."</p>
+        <div class="tauthor">
+          <div class="tavatar">F</div>
+          <div>
+            <div class="tname">Fernanda L.</div>
+            <div class="tdetail">Acompanhamento mensal</div>
+          </div>
+        </div>
+        <div class="tresult">✦ Glicemia e hemoglobina normalizadas</div>
+      </div>
+      <div class="tcard">
+        <div class="tstars">★★★★★</div>
+        <p class="ttext">"A meta foi alcançada! Ver os exames com melhora expressiva me mostrou que todo esforço valeu a pena. Gratidão pelo acompanhamento dedicado e pelo cuidado de sempre."</p>
+        <div class="tauthor">
+          <div class="tavatar">C</div>
+          <div>
+            <div class="tname">Carolina M.</div>
+            <div class="tdetail">Acompanhamento semestral</div>
+          </div>
+        </div>
+        <div class="tresult">✦ Exames laboratoriais normalizados</div>
+      </div>
+      <div class="tcard">
+        <div class="tstars">★★★★★</div>
+        <p class="ttext">"A balança já respondeu! Me sinto mais leve, com mais energia e disposição. O plano é prático e consigo seguir sem sofrimento. Isso faz toda diferença para manter a constância."</p>
+        <div class="tauthor">
+          <div class="tavatar">J</div>
+          <div>
+            <div class="tname">Juliana P.</div>
+            <div class="tdetail">Acompanhamento trimestral</div>
+          </div>
+        </div>
+        <div class="tresult">✦ Resultados consistentes a cada retorno</div>
+      </div>
+    </div>
+    <div class="car-controls">
+      <button class="cc-btn" id="prev" aria-label="Anterior">&#8592;</button>
+      <button class="cc-btn" id="next" aria-label="Próximo">&#8594;</button>
+      <div class="cc-dots" id="dots"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     CTA
+═══════════════════════════════════════════ -->
+<section class="cta-section">
+  <h2 class="reveal">Pronta para dar o <em>próximo passo</em>?</h2>
+  <p class="reveal">Talvez só esteja faltando a decisão de se priorizar. E eu estarei aqui para te acompanhar em cada etapa dessa jornada.</p>
+  <a href="https://wa.me/5511999990000" class="btn-white reveal">
+    Quero agendar minha consulta
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+  </a>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     LOCATION
+═══════════════════════════════════════════ -->
+<section class="location" id="localizacao">
+  <div class="loc-text reveal-l">
+    <div class="s-label">Onde me encontrar</div>
+    <h2>Atendimento <em>presencial</em> e online</h2>
+    <p>Um espaço acolhedor para que você se sinta à vontade em cada consulta.</p>
+    <div class="loc-cards">
+      <div class="loc-card">
+        <div class="loc-card-label">📍 Consultório Presencial</div>
+        <div class="loc-card-text">
+          Av. Paulista, 2100 – Bela Vista<br>
+          Edifício Vida Plena, Sala 802<br>
+          São Paulo – SP, 01310-200<br>
+          <span style="color:var(--text-light); font-size:0.8rem;">Referência: próximo à estação Trianon-MASP</span>
+        </div>
+      </div>
+      <div class="loc-card">
+        <div class="loc-card-label">💻 Atendimento Online</div>
+        <div class="loc-card-text">
+          Consultas via Google Meet para todo o Brasil.<br>
+          A mesma qualidade e atenção, de onde você estiver.
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="map-frame reveal">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657!2d-46.65535!3d-23.56166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%2C%202100%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1716000000000"
+      allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+      title="Localização do consultório – Av. Paulista, São Paulo SP">
+    </iframe>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     FOOTER
+═══════════════════════════════════════════ -->
+<footer>
+  <div class="f-logo">Isabela Fontes</div>
+  <ul class="f-links">
+    <li><a href="#sobre">Sobre</a></li>
+    <li><a href="#planos">Planos</a></li>
+    <li><a href="#depoimentos">Depoimentos</a></li>
+    <li><a href="https://wa.me/5511999990000">Contato</a></li>
+  </ul>
+  <div class="f-copy">© 2025 Isabela Fontes · Todos os direitos reservados</div>
+</footer>
+
+<!-- ═══════════════════════════════════════════
+     JAVASCRIPT
+═══════════════════════════════════════════ -->
+<script>
+/* ── Scroll reveal ── */
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.classList.add('up');
+      observer.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+document.querySelectorAll('.reveal, .reveal-l').forEach(el => observer.observe(el));
+
+/* ── Nav scroll shadow ── */
+const navbar = document.getElementById('navbar');
+window.addEventListener('scroll', () => {
+  navbar.classList.toggle('scrolled', window.scrollY > 20);
+}, { passive: true });
+
+/* ── Hamburger / Drawer ── */
+const hamburger = document.getElementById('hamburger');
+const drawer    = document.getElementById('nav-drawer');
+
+function closeDrawer() {
+  hamburger.classList.remove('open');
+  drawer.classList.remove('open');
+  hamburger.setAttribute('aria-expanded', 'false');
+  drawer.setAttribute('aria-hidden', 'true');
+  document.body.style.overflow = '';
+}
+
+hamburger.addEventListener('click', () => {
+  const isOpen = drawer.classList.toggle('open');
+  hamburger.classList.toggle('open', isOpen);
+  hamburger.setAttribute('aria-expanded', String(isOpen));
+  drawer.setAttribute('aria-hidden', String(!isOpen));
+  document.body.style.overflow = isOpen ? 'hidden' : '';
+});
+
+// Close on link click
+drawer.querySelectorAll('a').forEach(a => a.addEventListener('click', closeDrawer));
+
+// Close on outside click
+document.addEventListener('click', e => {
+  if (!navbar.contains(e.target) && !drawer.contains(e.target)) closeDrawer();
+});
+
+// Close on Escape
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDrawer(); });
+
+/* ── Testimonials carousel ── */
+const car   = document.getElementById('carousel');
+const cards = [...car.querySelectorAll('.tcard')];
+const dotsEl = document.getElementById('dots');
+let cur = 0;
+
+const visCount = () => window.innerWidth <= 768 ? 1 : 3;
+const maxIndex = () => Math.max(0, cards.length - visCount());
+
+// Build dots
+function buildDots() {
+  dotsEl.innerHTML = '';
+  for (let i = 0; i <= maxIndex(); i++) {
+    const d = document.createElement('div');
+    d.className = 'dot' + (i === cur ? ' active' : '');
+    d.onclick = () => goTo(i);
+    dotsEl.appendChild(d);
+  }
+}
+
+function goTo(n) {
+  cur = Math.max(0, Math.min(n, maxIndex()));
+  const gap = 20; // matches CSS gap 1.25rem ≈ 20px
+  const w = cards[0].offsetWidth + gap;
+  car.style.transition = 'transform 0.45s cubic-bezier(0.4,0,0.2,1)';
+  car.style.transform  = `translateX(-${cur * w}px)`;
+  dotsEl.querySelectorAll('.dot').forEach((d, i) => d.classList.toggle('active', i === cur));
+}
+
+buildDots();
+document.getElementById('prev').onclick = () => goTo(cur - 1);
+document.getElementById('next').onclick = () => goTo(cur + 1);
+
+// Touch / swipe
+let touchStartX = 0;
+car.addEventListener('touchstart', e => { touchStartX = e.touches[0].clientX; }, { passive: true });
+car.addEventListener('touchend',   e => {
+  const diff = touchStartX - e.changedTouches[0].clientX;
+  if (Math.abs(diff) > 48) goTo(diff > 0 ? cur + 1 : cur - 1);
+});
+
+// Rebuild on resize
+let resizeTimer;
+window.addEventListener('resize', () => {
+  clearTimeout(resizeTimer);
+  resizeTimer = setTimeout(() => {
+    cur = Math.min(cur, maxIndex());
+    car.style.transition = 'none';
+    car.style.transform  = `translateX(-${cur * (cards[0].offsetWidth + 20)}px)`;
+    buildDots();
+  }, 120);
+}, { passive: true });
+</script>
+</body>
+</html>
